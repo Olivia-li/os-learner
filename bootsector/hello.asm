@@ -8,6 +8,7 @@ mov al, 'l'
 int 0x10
 int 0x10 
 mov al, 'o'
+mov bl, 'h'
 int 0x10
 mov al, ' '
 int 0x10
