@@ -20,7 +20,7 @@
 
 %include "strings_print.asm"
 %include "strings_hex_print.asm"
-%include "disc_read.asm"
+%include "disk_read.asm"
 
 ; Magic number
 times 510 - ($-$$) db 0
